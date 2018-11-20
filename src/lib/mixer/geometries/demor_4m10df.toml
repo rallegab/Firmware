@@ -1,0 +1,41 @@
+# DemoR1-1 motor geometry layout F - 12 motors with 10 deg tilt
+# 4 individual control groups with 3 motors each
+
+[info]
+key = "4m10df"
+description = "DemoR1-1 motor geometry layout F - 12 motors with 10 deg tilt"
+
+[rotor_default]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = 1.0
+Cm        = 0.0
+
+
+
+[[rotors]]
+name      = "front_right"
+position  = [1.0, 0.636, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+Ct 	  = 1.5
+
+[[rotors]]
+name      = "rear_right"
+position  = [-1.0, 0.636, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+Ct 	  = 1.5
+
+
+
+[[rotors]]
+name      = "rear_left"
+position  = [-1.0, -0.636, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+Ct 	  = 1.5
+
+[[rotors]]
+name      = "front_left"
+position  = [1.0, -0.636, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+Ct 	  = 1.5
+

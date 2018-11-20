@@ -53,6 +53,18 @@ set(geometry_files
 	quad_y.toml
 	tri_y.toml
 	twin_engine.toml
+	demor_4m10df.toml
+	demor_6m10da.toml
+	demor_6m10db.toml
+	demor_8m10dc.toml
+	demor_8m10dd.toml
+	demor_8m10de.toml
+	demor_4m5df.toml
+	demor_6m5da.toml
+	demor_6m5db.toml
+	demor_8m5dc.toml
+	demor_8m5dd.toml
+	demor_8m5de.toml
 )
 
 set(geometries_list)
