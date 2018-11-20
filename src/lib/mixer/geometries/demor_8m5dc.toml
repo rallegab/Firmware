@@ -2,7 +2,7 @@
 # 8 individual control groups with 2x4 corner motors and 1x4 center motors
 
 [info]
-key = "8m10dc"
+key = "8m5dc"
 description = "DemoR1-1 motor geometry layout C - 12 motors with 5 deg tilt"
 
 [rotor_default]
