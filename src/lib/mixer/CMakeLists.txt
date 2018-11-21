@@ -65,6 +65,8 @@ set(geometry_files
 	demor_8m5dc.toml
 	demor_8m5dd.toml
 	demor_8m5de.toml
+	demor_12m10dgm.toml
+	demor_12m10dga.toml
 )
 
 set(geometries_list)

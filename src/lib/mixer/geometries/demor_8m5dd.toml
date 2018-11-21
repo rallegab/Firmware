@@ -17,25 +17,25 @@ Cm        = 0.0
 name      = "front_right"
 position  = [1.0, 0.412, 0.0]
 axis      = [0.0, -0.087156, -0.996195]
-Ct	  = 0.5
+Ct	  = 0.6
 
 [[rotors]]
 name      = "midfront_right"
 position  = [0.471, 0.412, 0.0]
 axis      = [0.0, -0.087156, -0.996195]
-Ct	  = 1.0
+Ct	  = 1.2
 
 [[rotors]]
 name      = "midrear_right"
 position  = [-0.471, 0.412, 0.0]
 axis      = [0.0, -0.087156, -0.996195]
-Ct	  = 1.0
+Ct	  = 1.2
 
 [[rotors]]
 name      = "rear_right"
 position  = [-1.0, 0.412, 0.0]
 axis      = [0.0, -0.087156, -0.996195]
-Ct	  = 0.5
+Ct	  = 0.6
 
 
 
@@ -43,23 +43,23 @@ Ct	  = 0.5
 name      = "rear_left"
 position  = [-1.0, -0.412, 0.0]
 axis      = [0.0, 0.087156, -0.996195]
-Ct	  = 0.5
+Ct	  = 0.6
 
 [[rotors]]
 name      = "midrear_left"
 position  = [-0.471, -0.412, 0.0]
 axis      = [0.0, 0.087156, -0.996195]
-Ct	  = 1.0
+Ct	  = 1.2
 
 [[rotors]]
 name      = "midfront_left"
 position  = [0.471, -0.412, 0.0]
 axis      = [0.0, 0.087156, -0.996195]
-Ct	  = 1.0
+Ct	  = 1.2
 
 [[rotors]]
 name      = "front_left"
 position  = [1.0, -0.412, 0.0]
 axis      = [0.0, 0.087156, -0.996195]
-Ct	  = 0.5
+Ct	  = 0.6
 

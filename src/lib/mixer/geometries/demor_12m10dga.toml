@@ -1,0 +1,31 @@
+# DemoR1-1 motor geometry layout G - 12 motors with 10 deg tilt
+# 4 individual control groups with 1 motor each on aux
+# center engines only contribute with thrust, no roll, pitch or yaw
+
+[info]
+key = "12m10dga"
+description = "DemoR1-1 motor geometry layout G - 12 motors with 10 deg tilt"
+
+[rotor_default]
+axis      = [0.0, 0.0, -1.0]
+position  = [0.0, 0.0, 0.0]
+direction = "CCW"
+Ct        = 3.0
+Cm        = 0.0
+
+
+
+[[rotors]]
+name      = "front_right"
+
+[[rotors]]
+name      = "rear_right"
+
+
+
+[[rotors]]
+name      = "rear_left"
+
+[[rotors]]
+name      = "front_left"
+
