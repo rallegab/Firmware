@@ -1,0 +1,81 @@
+# DemoR1-1 motor geometry layout FULL - 12 motors with 10 deg tilt
+# 12 individual control groups with 1 motor each
+
+[info]
+key = "12full"
+description = "DemoR1-1 motor geometry layout FULL - 12 motors with 10 deg tilt"
+
+[rotor_default]
+axis      = [0.0, 0.0, -1.0]
+direction = "CCW"
+Ct        = 1.0
+Cm        = 0.0
+
+
+
+[[rotors]]
+name      = "1st_front_right"
+position  = [1.0, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+[[rotors]]
+name      = "2nd_front_right"
+position  = [0.647, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+[[rotors]]
+name      = "3rd_front_right"
+position  = [0.294, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+
+
+[[rotors]]
+name      = "3rd_rear_right"
+position  = [-0.294, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+[[rotors]]
+name      = "2nd_rear_right"
+position  = [-0.647, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+[[rotors]]
+name      = "1st_rear_right"
+position  = [-1.0, 0.412, 0.0]
+axis      = [0.0, -0.173648, -0.984808]
+
+
+
+[[rotors]]
+name      = "1st_rear_left"
+position  = [-1.0, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
+[[rotors]]
+name      = "2nd_rear_left"
+position  = [-0.647, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
+[[rotors]]
+name      = "3rd_rear_left"
+position  = [-0.294, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
+
+
+[[rotors]]
+name      = "3rd_front_left"
+position  = [0.294, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
+[[rotors]]
+name      = "2nd_front_left"
+position  = [0.647, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
+[[rotors]]
+name      = "1st_front_left"
+position  = [1.0, -0.412, 0.0]
+axis      = [0.0, 0.173648, -0.984808]
+
